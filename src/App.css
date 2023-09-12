@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.container {
+  background-color: #f1f1f1;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.col-sm-9 {
+  min-width: 500px;
+  background-color: #ffffff;
+  margin: 0px;
+  margin-left: 50px;
+  padding-left: 20px;
+  padding: 35px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 5px rgba(11, 20, 39, 0.2);
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.form-top {
+  margin-top: 10px;
+}
+
+.form-line {
+  margin-bottom: 30px;
+}
+
+.budget-col {
+  background-color: #ffffff;
+  border: 1px solid rgb(232, 232, 232);
+  padding: 35px;
+  margin-top: 12px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding-bottom: 25px;
+  box-shadow: 5px 5px 20px 5px rgba(98, 98, 98, 0.2);
+}
+
+.budget-col h3, .col-sm-9 h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.budget-edit-btn {
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  border-radius: 7px;
+  padding-top:5px; padding-bottom: 5px;
+  padding-left: 10px; padding-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.alert-budget {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #3db998;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  min-width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.alert-rem {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #f59f93;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  min-width: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.alert-spent {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #284160;
+  border-radius: 10px;
+  min-width: auto;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.expense-list{
+  margin-left: 85px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.alert-spent:hover, .alert-rem:hover, .alert-budget:hover {
+  color: #000000;
+  background-color: #5bdcf3;
+}
